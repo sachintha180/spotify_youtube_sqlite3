@@ -4,7 +4,7 @@ A normalized, cleaned and refactored SQLite3 database of the "Spotify &amp; YouT
 ## Files ##
 ```
   - script.py : Python code used for converting the .csv dataset into an SQLite3 database
-  - create.sql: _The SQL DDL commands used to create the entities prior to adding records from the .csv dataset
+  - create.sql: The SQL DDL commands used to create the entities prior to adding records from the .csv dataset
   - Spotify_Youtube.csv: The original .csv file from Kaggle
   - music.db: The dumped SQLite3 database
 ```
