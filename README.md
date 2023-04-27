@@ -4,18 +4,18 @@ A normalized, cleaned and refactored SQLite3 database of the "Spotify &amp; YouT
 ## Directory ##
 `
 spotify_youtube_sqlite3
-  -> script.py : Python code used for converting the .csv dataset into an SQLite3 database
-  -> create.sql: The SQL DDL commands used to create the entities prior to adding records from the .csv dataset
-  -> Spotify_Youtube.csv: The original .csv file from Kaggle
-  -> music.db: The dumped SQLite3 database
+  -> script.py : _Python code used for converting the .csv dataset into an SQLite3 database_
+  -> create.sql: _The SQL DDL commands used to create the entities prior to adding records from the .csv dataset_
+  -> Spotify_Youtube.csv: _The original .csv file from Kaggle_
+  -> music.db: _The dumped SQLite3 database_
  `
  
 ## Link to original dataset ##
-https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube
+<https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube>
 
 ## Relational schema ##
 
-`
+```
 CREATE TABLE artist(
     artist_id INTEGER PRIMARY KEY,
     artist_name TEXT NOT NULL
@@ -58,4 +58,4 @@ CREATE TABLE video(
     FOREIGN KEY (song_id) REFERENCES song(song_id) ON DELETE CASCADE
     FOREIGN KEY (channel_id) REFERENCES channel(channel_id) ON DELETE CASCADE
 );
-`
+```
