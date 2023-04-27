@@ -1,13 +1,12 @@
 # spotify_youtube_sqlite3
 A normalized, cleaned and refactored SQLite3 database of the "Spotify &amp; YouTube" dataset from Kaggle.com
 
-## Directory ##
+## Files ##
 ```
-spotify_youtube_sqlite3
-  -> script.py : Python code used for converting the .csv dataset into an SQLite3 database
-  -> create.sql: _The SQL DDL commands used to create the entities prior to adding records from the .csv dataset
-  -> Spotify_Youtube.csv: The original .csv file from Kaggle
-  -> music.db: The dumped SQLite3 database
+  - script.py : Python code used for converting the .csv dataset into an SQLite3 database
+  - create.sql: _The SQL DDL commands used to create the entities prior to adding records from the .csv dataset
+  - Spotify_Youtube.csv: The original .csv file from Kaggle
+  - music.db: The dumped SQLite3 database
 ```
  
 ## Link to original dataset ##
